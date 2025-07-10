@@ -1,0 +1,4 @@
+project_name: my-telegram-miniapp
+builder: python
+build_command: pip install -r requirements.txt
+start_command: python app.py
