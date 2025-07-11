@@ -1,0 +1,9 @@
+LICENSE
+README.md
+app.py
+setup.py
+my_telegram_miniapp.egg-info/PKG-INFO
+my_telegram_miniapp.egg-info/SOURCES.txt
+my_telegram_miniapp.egg-info/dependency_links.txt
+my_telegram_miniapp.egg-info/requires.txt
+my_telegram_miniapp.egg-info/top_level.txt

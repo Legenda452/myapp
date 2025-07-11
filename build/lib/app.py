@@ -12,4 +12,4 @@ def index():
         return "Это должно быть открыто в Telegram Mini App."
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000, debug=True)# Debug mode is OK for development, disable in production!
+    app.run(debug=True) # Debug mode is OK for development, disable in production!

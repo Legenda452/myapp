@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мой Mini App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+<h1>Привет от моего Mini App!</h1>
+<p>Работает через Telegram Web Apps.</p>
+<p>Откройте в Telegram, чтобы увидеть Telegram Web App возможности.</p>
+<p>Bot Username: <b>{{ bot_username }}</b></p>
+
+<script>
+    // Инициализация Telegram Web App
+    Telegram.WebApp.ready();
+
+    // Пример отправки данных обратно в Telegram (опционально)
+    function sendData() {
+        Telegram.WebApp.sendData("Данные отправлены из Mini App!");
+    }
+</script>
+
+<button onclick="sendData()">Отправить данные в Telegram</button>
+</body>
+</html>
